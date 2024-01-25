@@ -103,8 +103,7 @@ print(round(avrg, 2))
 
 Тест | Ввод | Результат
 -----|------|----------
-179  |179   | The next number for the number 179 is 180.<br>
-The previous number for the number 179 is 178.
+179  |179   | The next number for the number 179 is 180.<br> The previous number for the number 179 is 178.
 
 
 
