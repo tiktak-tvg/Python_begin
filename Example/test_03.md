@@ -60,7 +60,8 @@ print(i)
 
 #### Напишите программу, которая выводит значение выражения.
 Уточнение: в этой программе не нужен ввод данных
-![image](https://github.com/tvgVita69/python_begin/assets/98489171/7deed202-a225-4948-9302-2c706523344f)
+
+![image](https://github.com/tvgVita69/python_begin/assets/98489171/2b036b95-ec81-493b-95d7-26bcec40baf3)
 
 
 > Для примера:
