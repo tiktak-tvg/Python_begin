@@ -9,7 +9,7 @@ print (1floor, 2floor, 3floor)
 ```
 *Решение:*
 
-- [X] a.Ничего — в коде ошибка. 
+- [v] a.Ничего — в коде ошибка. &check;
 - ( ) b.1floor, 2floor, 3floor
 - ( ) c.1, 2, 3
 
@@ -19,13 +19,10 @@ print (1floor, 2floor, 3floor)
 *Решение:*
 
 - [ ] a.По типу
-- [X] b.По имени 
+- [V] b.По имени &check;
 - [ ] c.По значению
 
-name* = ___________
-sex = (x) Male () Female
-phones = [] Android [x] iPhone [] Blackberry
-city = {BOS, (SFO), NYC}
+
 
 *Правильный ответ: По имени*
 Вопрос
