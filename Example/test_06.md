@@ -74,7 +74,7 @@ print (FloorNumberOne, FloorNumberThree, floorNumberTwo)
 - [X] c._chairs &check;
 - [ ] d.10chairs
 
-*Правильные ответы: _chairs<br>Chairs*
+*Правильные ответы: <br>_chairs<br>Chairs*
 
 #### Какое значение выведет на экран код?
 ```
