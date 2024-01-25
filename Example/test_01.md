@@ -48,7 +48,7 @@
 Выберите один ответ:
 - [ ] 3 → 2 → 1
 - [ ] 1 → 3 → 2
-- [ ] 1 → 2 → 3 ![image](https://github.com/tvgVita69/python_begin/assets/98489171/60d6ff07-52ea-4505-83c6-d4aa2b652b4e)
-- [X] 2 → 3 → 1 
+- [ ] 1 → 2 → 3 
+- [X] 2 → 3 → 1 ![image](https://github.com/tvgVita69/python_begin/assets/98489171/60d6ff07-52ea-4505-83c6-d4aa2b652b4e)
 
 *Правильный ответ: 2 → 3 → 1*
