@@ -4,7 +4,8 @@
 Выберите один ответ:
 - [ ] Нет
 - [ ] Не только
-- [X] Да ![image](https://github.com/tvgVita69/python_begin/assets/98489171/3b05d815-25fd-4ffb-9f3f-b8f0756fc3b8)
+- [X] Да ![image](https://github.com/tvgVita69/python_begin/assets/98489171/218881b2-9d44-48c6-905f-be322d807649)
+
 
 *Правильный ответ: Да*
 
