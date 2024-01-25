@@ -159,32 +159,28 @@ print((a + a + b) * n)
 
 > Для примера:
 
- Ввод | Результат |
-------|-----------|
+Ввод  | Результат 
+------|----------
 3<br>8|11<br>-5<br>24<br>0.375<br>0<br>3<br>2.8284271247461903<br>         
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*Решение:*
+```
+a = int(input())
+b = int(input())
+c = a + b
+d = a - b
+e = a * b
+f = a / b
+g = a // b
+h = a % b
+import math
+r = math.sqrt(b)
+print(c)
+print(d)
+print(e)
+print(f)
+print(g)
+print(h)
+print(r)
+```
 
