@@ -107,7 +107,7 @@ print(s) #Выводите результат через print()
 
 | Ввод	     | Результат       |
 |----------- | ------------    
-| Harry      | Harry   <br>Hello, Harry!   
+| Harry      | Harry   <br>  Hello, Harry!   
 
 *Решение:*
 ``` a= input()
