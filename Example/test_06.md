@@ -22,6 +22,10 @@ print (1floor, 2floor, 3floor)
 - [X] b.По имени 
 - [ ] c.По значению
 
+name* = ___________
+sex = (x) Male () Female
+phones = [] Android [x] iPhone [] Blackberry
+city = {BOS, (SFO), NYC}
 
 *Правильный ответ: По имени*
 Вопрос
