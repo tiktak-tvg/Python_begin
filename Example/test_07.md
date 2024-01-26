@@ -102,7 +102,7 @@ print(float(c))
 ```
 num = float(input())
 def sl(x):
-return x%10
+  return x%10
 print(sl(int(num)))
 ```
 
@@ -120,8 +120,8 @@ print(sl(int(num)))
 n = int(input())
 s = 0
 while n != 0:
-s += n % 10
-n = n // 10
+  s += n % 10
+  n = n // 10
 print(s)
 ```
 
@@ -161,12 +161,12 @@ k2 = int(input())
 k3 = int(input())
 p = (k1 + k2 + k3) % 2
 if p == 1:
-p = (k1 + k2 + k3) / 2
-p += 1
-print(round(p))
+    p = (k1 + k2 + k3) / 2
+    p += 1
+    print(round(p))
 elif p == 0:
-p = (k1 + k2 + k3) / 2
-print(round(p))
+    p = (k1 + k2 + k3) / 2
+    print(round(p))
 ```
 
 
