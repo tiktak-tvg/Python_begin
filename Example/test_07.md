@@ -52,7 +52,7 @@ print("Division of two complex numbers : ",(4+3j)/(3-7j))
 ![image](https://github.com/tvgVita69/python_begin/assets/98489171/3f0562c4-faf4-45de-8039-c88427709753)
 
 
-|Результат
+|Результат|
 |Addition of two complex numbers : (7-4j)
 |Subtraction of two complex numbers : (1+10j)
 |Multiplication of two complex numbers : (33-19j)
