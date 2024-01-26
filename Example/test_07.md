@@ -54,10 +54,10 @@ print("Division of two complex numbers : ",(4+3j)/(3-7j))
 
 |Результат|
 |---------|
-|Addition of two complex numbers : (7-4j)
-|Subtraction of two complex numbers : (1+10j)
-|Multiplication of two complex numbers : (33-19j)
-|Division of two complex numbers : (-0.15517241379310348+0.6379310344827587j)
+|Addition of two complex numbers: (7-4j)
+|Subtraction of two complex numbers: (1+10j)
+|Multiplication of two complex numbers: (33-19j)
+|Division of two complex numbers: (-0.15517241379310348+0.6379310344827587j)
 
 
 ```
@@ -67,9 +67,15 @@ print ("Multiplication of two complex numbers: ", (4 + 3j) * (3 - 7j))
 print ("Division of two complex numbers: ", (4 + 3j) / (3 - 7j))
 ```
 
+Дано два числа a и b. Найдите гипотенузу треугольника с заданными катетами.
 
+> Для примера:
 
-
+Тест | Ввод | Результат
+-----|------|----------
+3    |3     |3 
+4    |4     |4
+     |      |5.0 
 
 
 
