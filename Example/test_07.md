@@ -53,6 +53,7 @@ print("Division of two complex numbers : ",(4+3j)/(3-7j))
 
 
 |Результат|
+|---------|
 |Addition of two complex numbers : (7-4j)
 |Subtraction of two complex numbers : (1+10j)
 |Multiplication of two complex numbers : (33-19j)
