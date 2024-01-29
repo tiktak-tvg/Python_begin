@@ -29,3 +29,19 @@ else:
 ```
 
 ![image](https://github.com/tvgVita69/python_begin/assets/98489171/a34b8b95-d83d-4d10-b9b2-9d1cfb52e646)
+
+Можно использовать и тернарные выражения.
+```
+>>> num = 10
+>>> a = print('Число больше 10') if num > 10 else print('Число меньше 10') if num < 10 else print("Число равно 10")
+Число равно 10
+>>> num = 11
+>>> a = print('Число больше 10') if num > 10 else print('Число меньше 10') if num < 10 else print("Число равно 10")
+Число больше 10
+>>> num = 1
+>>> a = print('Число больше 10') if num > 10 else print('Число меньше 10') if num < 10 else print("Число равно 10")
+Число меньше 10
+>>>
+```
+
+![image](https://github.com/tvgVita69/python_begin/assets/98489171/b796a1e4-e338-4acc-bf91-f215d96c270b)
