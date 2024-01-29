@@ -7,3 +7,10 @@ value = None
 # функционала и т.п.
 if value is not None:
     pass           # TODO: add logic
+
+
+passwd = input("Введите пароль: ")
+if password == "xaxa":
+    print("Добро пожаловать")
+else:
+    print("Доступ запрещен")
