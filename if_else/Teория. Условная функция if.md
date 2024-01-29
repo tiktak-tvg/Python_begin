@@ -273,7 +273,7 @@ if z is False:
     print('z = False')
     z = False
     if not z:
-        print('Переменная z имеет ложное значение')
+        print('Переменная z хранит ложное значение')
 ```
 ![image](https://github.com/tvgVita69/python_begin/assets/98489171/0abc0464-14a5-4ffc-85a8-78bd5d7c8505)
 
@@ -285,6 +285,50 @@ if z is False:
 - ``{}``(пустой словарь),
 - ``set()``(пустой набор),
 - ``range(0)``(пустой диапазон).
+
+> Например
+
+```
+a = 'Hello'
+b = 'VIP client!'
+c = ''
+d = 0
+if a:
+    print(a)
+
+if ['a', 'b']:
+    print(a,b)
+
+if not a:
+    print(a)
+
+if c:
+    print(c)
+
+if d:
+    print(d)
+```
+![image](https://github.com/tvgVita69/python_begin/assets/98489171/094cfe24-e622-42c8-9e24-6a681fc75328)
+
+```
+if True and True:
+    print('True')
+
+if True and False:
+    print('False')
+
+# --------------------------------
+
+if True or False:
+    print('True')
+
+if False or False:
+    print('False')
+```
+> Результат такой
+
+![image](https://github.com/tvgVita69/python_begin/assets/98489171/3eb67dc5-77d6-4908-bfaa-1fa946a9e68b)
+
 
 
 
