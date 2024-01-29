@@ -267,7 +267,15 @@ else:
 ```
 ![image](https://github.com/tvgVita69/python_begin/assets/98489171/21f30ff0-1ca3-49ed-b15b-50f8b757e1eb)
 
-
+```
+z = False
+if z is False:
+    print('z = False')
+    z = False
+    if not z:
+        print('Переменная z имеет ложное значение')
+```
+![image](https://github.com/tvgVita69/python_begin/assets/98489171/0abc0464-14a5-4ffc-85a8-78bd5d7c8505)
 
 
 
