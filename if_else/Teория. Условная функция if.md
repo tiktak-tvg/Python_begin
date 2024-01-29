@@ -396,3 +396,40 @@ else:
 ```
 ![image](https://github.com/tvgVita69/python_begin/assets/98489171/932c01e4-dd9e-447c-8810-fb8f3f957aec)
 
+##### Комбинирование ``and`` и ``or``
+
+```
+a = 1
+b = 3
+c = 7
+if (a > 0 and b > 0) or c > 0:
+    print('Все условия соблюдены')
+else:
+    print('Не все условия соблюдены')
+
+a = 1
+b = 3
+c = 7
+if (a > 0 and b > 0) or c > 10:
+    print('Все условия соблюдены')
+else:
+    print('Не все условия соблюдены')
+    
+a = 1
+b = 3
+c = 7
+if (a > 10 and b > 0) or c > 0:
+    print('Все условия соблюдены')
+else:
+    print('Не все условия соблюдены')
+    
+a = 1
+b = 3
+c = 7
+if (a > 10 and b > 0) or c > 10:
+    print('Все условия соблюдены')
+else:
+    print('Не все условия соблюдены')
+```
+![image](https://github.com/tvgVita69/python_begin/assets/98489171/99cd4246-ca05-48fb-86da-4c1140cee29b)
+
