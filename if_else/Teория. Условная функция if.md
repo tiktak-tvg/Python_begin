@@ -135,7 +135,39 @@ else:
     print("Неизвестный день")
 Седьмой день недели.
 ```
+> Или как альтернативу оператору switch/case — использование словарей.
 
+```
+def monday():
+    return "Первый день недели."
+def tuesday():
+    return "Второй день недели."
+def wednesday():
+    print("Третий день недели.")
+def thursday():
+    print("Четвертый день недели.")
+def friday():
+    print("Пятый день недели.")
+def saturday():
+    print("Шестой день недели.")
+def sunday():
+    print("Седьмой день недели.")
+def default():
+    return "Неизвестный день"
+# использование словаря
+switch = {
+    "Понедельник": monday,
+    "Вторник": tuesday,
+    "Среда": wednesday,
+    "Четверг": thursday,
+    "Пятница": friday,
+    "Суббота": saturday,
+    "Воскресенье": sunday
+}
+
+print(switch.get(day, default)())
+Шестой день недели.
+```
 
 
 
