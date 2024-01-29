@@ -2,8 +2,10 @@
 ##### Синтаксис инструкции.
 - Оператор-выражение if
 ![image](https://github.com/tvgVita69/python_begin/assets/98489171/6d372d9f-fa6f-4bba-af2b-f7810601af71)
+
 - Оператор-выражение if-else
 ![image](https://github.com/tvgVita69/python_begin/assets/98489171/07a93b02-97eb-4ca8-a30c-b6a6f25b84f5)
+
 - Оператор-выражение if-elif-else
 ![image](https://github.com/tvgVita69/python_begin/assets/98489171/f3f37702-6fb2-4930-9e79-3759c73e9c6e)
 
