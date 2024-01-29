@@ -4,6 +4,9 @@
 - Оператор-выражение if
 - Оператор-выражение if-else
 - Оператор-выражение if-elif-else
+
+![image](https://github.com/tvgVita69/python_begin/assets/98489171/6d372d9f-fa6f-4bba-af2b-f7810601af71)
+  
 ```
 num = 11
 if num > 10:
@@ -139,22 +142,21 @@ else:
 
 ```
 def monday():
-    return "Первый день недели."
-def tuesday():
     return "Второй день недели."
+def tuesday():
+    return "Третий день недели."
 def wednesday():
-    print("Третий день недели.")
+    return "Четвертый день недели."
 def thursday():
-    print("Четвертый день недели.")
+    return "Пятый день недели."
 def friday():
-    print("Пятый день недели.")
+    return "Шестой день недели."
 def saturday():
-    print("Шестой день недели.")
+    return "Седьмой день недели."
 def sunday():
-    print("Седьмой день недели.")
+    return "Первый день недели."
 def default():
     return "Неизвестный день"
-# использование словаря
 switch = {
     "Понедельник": monday,
     "Вторник": tuesday,
@@ -164,9 +166,9 @@ switch = {
     "Суббота": saturday,
     "Воскресенье": sunday
 }
-
+# использование словаря
 print(switch.get(day, default)())
-Шестой день недели.
+Седьмой день недели.
 ```
 
 
