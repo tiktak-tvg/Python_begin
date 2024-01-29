@@ -212,8 +212,23 @@ else:
 Введите число: >? 0
 0
 ```
-
-
+или в одну строку
+```
+>>> a = 55
+>>> b = f'{a} < 50' if a < 50 else (f'{a} > 60' if a > 60 else f'50 > {a} < 60')
+>>> print(b)
+50 > 55 < 60
+>>> a = 45
+>>> b = f'{a} < 50' if a < 50 else (f'{a} > 60' if a > 60 else f'50 > {a} < 60')
+>>> print(b)
+45 < 50
+>>> a = 65
+>>> b = f'{a} < 50' if a < 50 else (f'{a} > 60' if a > 60 else f'50 > {a} < 60')
+>>> print(b)
+65 > 60
+>>>
+```
+![image](https://github.com/tvgVita69/python_begin/assets/98489171/60e1298a-4c5a-4830-83ed-119c1b4c054f)
 
 
 
