@@ -175,6 +175,8 @@ print(switch.get(day, default)())
 ##### Вложенные конструкции.
 
 Любое количество блоков ``if…elif…else`` можно разместить внутри другого оператора ``if…elif…else``
+> Например:
+- Оператор if внутри другого if-оператора
 
 ![image](https://github.com/tvgVita69/python_begin/assets/98489171/69a14337-d69f-4067-8220-47272003ab89)
 
@@ -230,9 +232,22 @@ else:
 ```
 ![image](https://github.com/tvgVita69/python_begin/assets/98489171/60e1298a-4c5a-4830-83ed-119c1b4c054f)
 
+> Другой пример:
+- Оператор if-else внутри условия else
 
-
-
+ ![image](https://github.com/tvgVita69/python_begin/assets/98489171/460a762b-ff8b-4c43-ab74-8d5cdb5e20f0)
+ 
+```
+x = 5
+if x > 7:
+    print("x больше 7")
+else:
+    print("x не больше 7")
+    if x % 2 == 0:
+        print("x - четное число")
+    else:
+        print("x - нечетное число")
+```
 
 
 
