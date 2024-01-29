@@ -259,11 +259,11 @@ if x is True:
 else:
     print("False")
 
-Y = False
+y = False
 if y is True:
-    print("True")
+    print('True')
 else:
-    print("False")
+    print('False')
 ```
 ![image](https://github.com/tvgVita69/python_begin/assets/98489171/21f30ff0-1ca3-49ed-b15b-50f8b757e1eb)
 
