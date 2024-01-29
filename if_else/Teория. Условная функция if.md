@@ -57,8 +57,9 @@ hello
 print('hello' if len('x') == 2 else 'bye')
 bye
 ```
+![image](https://github.com/tvgVita69/python_begin/assets/98489171/93880ef0-b9b4-4520-afc5-1759e99fdda8)
 
-Применение ``input()``
+##### Применение ``input()``
 > Например введём ``тернарные условные операторы``:
 
 ```
