@@ -376,5 +376,23 @@ else:
 ```
 ![image](https://github.com/tvgVita69/python_begin/assets/98489171/2673cc49-f0af-49fc-a1a2-73da4bbb5111)
 
+##### Использования функции ``any()``
+```
+a = 1
+b = 3
+c = 7
+if any([a > 0, b > 0, c > 0]):
+    print('Все условия соблюдены')
+else:
+    print('Не все условия соблюдены')
 
+a = -1
+b = 3
+c = 7
+if any([a > 0, b > 0, c > 0]):
+    print('Все условия соблюдены')
+else:
+    print('Не все условия соблюдены')
+```
+![image](https://github.com/tvgVita69/python_begin/assets/98489171/932c01e4-dd9e-447c-8810-fb8f3f957aec)
 
