@@ -248,8 +248,24 @@ else:
     else:
         print("x - нечетное число")
 ```
+##### Условный оператор с bool
 
+> Например:
 
+```
+x = True
+if x is True:
+    print("True")
+else:
+    print("False")
+
+Y = False
+if y is True:
+    print("True")
+else:
+    print("False")
+```
+![image](https://github.com/tvgVita69/python_begin/assets/98489171/21f30ff0-1ca3-49ed-b15b-50f8b757e1eb)
 
 
 
