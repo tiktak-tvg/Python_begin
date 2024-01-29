@@ -327,7 +327,8 @@ if False or False:
 ```
 > Результат такой
 
-![image](https://github.com/tvgVita69/python_begin/assets/98489171/3eb67dc5-77d6-4908-bfaa-1fa946a9e68b)
+![image](https://github.com/tvgVita69/python_begin/assets/98489171/15f30ab4-b488-4322-bb31-0ee2e55ae6a1)
+
 
 
 
