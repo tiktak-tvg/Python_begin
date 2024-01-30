@@ -1,13 +1,34 @@
 # Условная функция if
 ##### Синтаксис инструкции.
-- Оператор-выражение if
+- Оператор-выражение ``if``
+
 ![image](https://github.com/tvgVita69/python_begin/assets/98489171/6d372d9f-fa6f-4bba-af2b-f7810601af71)
 
-- Оператор-выражение if-else
+- Оператор-выражение ``if-else``
+
 ![image](https://github.com/tvgVita69/python_begin/assets/98489171/07a93b02-97eb-4ca8-a30c-b6a6f25b84f5)
 
-- Оператор-выражение if-elif-else
+- Оператор-выражение ``if-elif-else``
+
 ![image](https://github.com/tvgVita69/python_begin/assets/98489171/f3f37702-6fb2-4930-9e79-3759c73e9c6e)
+
+Варианты действий ``elif``
+```
+if <условие 1>:
+<действия 1>
+elif <условие 2>:
+<действия 2>
+elif <условие 3>:
+<действия 3>
+elif ...:
+...
+elif <условие n>:
+<действия n>
+else:
+<действия (n + 1)>
+```
+
+![image](https://github.com/tvgVita69/python_begin/assets/98489171/af9387ee-c975-4d05-bb12-9bfb1c90d296)
 
 ```
 num = 11
