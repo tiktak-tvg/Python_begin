@@ -33,3 +33,9 @@
 - string_indexing.py
 
 - string_slicing.py
+
+- Простейшие задачи на двумерные списки.md
+
+- Теория.md
+
+- списки_кортежи.md
