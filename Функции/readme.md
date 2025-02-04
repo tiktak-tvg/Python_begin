@@ -1,5 +1,6 @@
 #### Содержание.
 > functions_map()_filter()_redoce()
+- map_filter.md
 > functios
 - docstrings.py
 - factorial.py
