@@ -30,6 +30,7 @@ results = list(map(lambda x: x + 1, my_numbers))
 print(results) 
 ```
 ![image](https://github.com/user-attachments/assets/733a4470-da8c-4b47-888d-25004e49dca3)
+![image](https://github.com/user-attachments/assets/8246c598-a4ae-40dd-bfcd-8d3cc0726986)
 
 Другой пример.
 ```python
