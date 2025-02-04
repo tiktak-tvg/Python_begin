@@ -138,4 +138,17 @@ print(positive_numbers)
 ```
 ![image](https://github.com/user-attachments/assets/536f9227-f479-4183-b3db-5d219c14c832)
 
+Преобразование основных типов в булево значение (True/False)
+```python
+true_values = filter(None, [1, 0, 10, '', None, [], [1, 2, 3], ()])
+for value in true_values:
+    print(value)
+```
+
+Результат :
+```python
+1
+10
+[1, 2, 3]
+```
 
