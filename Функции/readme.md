@@ -1,8 +1,8 @@
 #### Содержание.
->> functions_map()_filter()_redoce()
+> functions_map()_filter()_redoce() >
 - map_filter.md
 
->> functios
+> functios >
 - docstrings.py
 - factorial.py
 - fibonacci.py
@@ -32,7 +32,7 @@
 - using-builtin-functions.py
 - функции.md
 
->> if else
+> if else >
 - Teория. Условная функция if.md
 - conditional_expression.py
 - elif_switch.py
