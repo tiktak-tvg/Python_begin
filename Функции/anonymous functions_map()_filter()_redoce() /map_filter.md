@@ -44,3 +44,16 @@ for n in new_numbers:  # итерируем циклом for
     print(n
 ```
 ![image](https://github.com/user-attachments/assets/dfa48527-99a8-4a50-bdce-eba64d80a6ba)
+
+```python
+print('Код с функцией  map() преобразуем итератор в список')
+def func(elem1, elem2):
+    return elem1 + elem2
+numbers1 = [1, 2, 3, 4]
+numbers2 = [1, 1, 1, 1, 1]
+new_numbers = list(map(func, numbers1, numbers2))  #  преобразуем итератор в список
+print(new_numbers)
+```
+![image](https://github.com/user-attachments/assets/91e15bd2-b01a-4345-93a6-5e50cc5ec8f9)
+
+	
