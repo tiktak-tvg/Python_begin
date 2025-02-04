@@ -1,1 +1,22 @@
+#### Содержание.
 
+- arithmetic_operations.py
+- bool.py
+- complex_numbers.py
+- dynamic_typing.py
+- hello.py
+- hello_print().py
+- input.py
+- integer-example.py
+- len.py
+- length_of_a_string.py
+- logical_operations.py
+- print.py
+- print_with_name.py
+- string_example.py
+- string_indexing.py
+- string_operations.py
+- string_slicing.py
+- арифмет_операторы.py
+- примеры.md
+- сравнения.py
