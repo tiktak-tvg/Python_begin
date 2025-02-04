@@ -94,7 +94,7 @@ print(result2)
 Название функции ``filter()`` отвечает само за себя.<br> 
 В отличие от ``map()``, которая пропускает каждый элемент через функцию и возвращает результат, ``filter()`` требует, чтобы проверочная функция возвращала логическое значение.
 
-Пример
+Пример 1
 ```python
 age = [20, 15, 18, 33]
 result = list(filter(lambda x: x > 18, age))
@@ -106,5 +106,22 @@ print(result)
 [20, 33]
 ```
 
+Пример 2
+```python
+names = ["Иван", "Петр", "Ирина", "Николай"]
+age = [20, 15, 13, 35]
+result = list(map(lambda x, y: (x, y), names, age))
+result = list(filter(lambda x: x[1] >= 15, result))
+print(result)
+или
+names = ["Иван", "Петр", "Ирина", "Николай"]
+age = [20, 15, 13, 35]
+result = list(map(lambda x, y: (x, y), names, age))
+result = [x for x in result if x[1] >= 15]
+print(result)
+```
 
- 
+Результат :
+```python
+[('Иван', 20), ('Петр', 15), ('Николай', 35)] 
+```
