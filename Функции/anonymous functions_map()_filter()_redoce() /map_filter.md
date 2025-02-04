@@ -68,7 +68,8 @@ numbers3 = [1, 2, 3, 4]
 new_numbers = list(map(func, numbers1, numbers2, numbers3))  #  преобразуем итератор в список
 print(new_numbers)
 ```
-![image](https://github.com/user-attachments/assets/6da638d6-c17c-43e2-9a0c-171dbbe71a6d)
+![image](https://github.com/user-attachments/assets/cd3d9fd1-31ba-4b9f-bbce-11894f67360e)
+
 
 
 
