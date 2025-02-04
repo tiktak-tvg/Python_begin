@@ -152,3 +152,49 @@ for value in true_values:
 [1, 2, 3]
 ```
 
+##### Функция reduce()
+
+Для использования функции ``reduce()`` необходимо подключить специальный модуль ``functools``.
+```python
+true_values = filter(None, [1, 0, 10, '', None, [], [1, 2, 3], ()])
+for value in true_values:
+    print(value)
+```
+
+Результат :
+```python
+1
+10
+[1, 2, 3]
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
