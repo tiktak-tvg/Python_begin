@@ -34,5 +34,13 @@ print(results)
 
 Другой пример.
 ```python
+print('Код с функцией  map() итерируем циклом for')
+def increase(n):
+    return n + 1
+numbers = [1, 2, 3, 4]
+new_numbers = map(increase, numbers)
 
+for n in new_numbers:  # итерируем циклом for
+    print(n
 ```
+![image](https://github.com/user-attachments/assets/dfa48527-99a8-4a50-bdce-eba64d80a6ba)
