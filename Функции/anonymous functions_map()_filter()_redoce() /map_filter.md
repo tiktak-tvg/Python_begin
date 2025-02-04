@@ -136,5 +136,6 @@ numbers = [-1, 2, -3, 4, 0, -20, 10]
 positive_numbers = list(filter(func, numbers))  #  преобразуем итератор в список
 print(positive_numbers)
 ```
-![image](https://github.com/user-attachments/assets/a0ea9682-c451-4fc6-8f42-4c527aaee6ff)
+![image](https://github.com/user-attachments/assets/536f9227-f479-4183-b3db-5d219c14c832)
+
 
