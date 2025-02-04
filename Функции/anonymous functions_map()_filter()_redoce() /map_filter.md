@@ -70,7 +70,24 @@ print(new_numbers)
 ```
 ![image](https://github.com/user-attachments/assets/c84d0001-d9a3-4f85-b42e-0026b71bcd55)
 
+Ещё один пример, округление 
+```python
+circle_areas = [1.25773, 1.37668, 1.51914, 1.60241, 11.11344, 12.212135]
 
+result1 = list(map(round, circle_areas, [1]*6))         # округляем числа до 1 знака после запятой
+result2 = list(map(round, circle_areas, range(1, 7)))   # округляем числа до 1,2,...,6 знаков после запятой
+
+print(circle_areas)
+print(result1)
+print(result2)
+```
+
+Результат :
+```python
+[1.25773, 1.37668, 1.51914, 1.60241, 11.11344, 12.212135]
+[1.3, 1.4, 1.5, 1.6, 11.1, 12.2]
+[1.3, 1.38, 1.519, 1.6024, 11.11344, 12.212135]
+```
 
 
 
