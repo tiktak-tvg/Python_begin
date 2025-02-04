@@ -125,3 +125,16 @@ print(result)
 ```python
 [('Иван', 20), ('Петр', 15), ('Николай', 35)] 
 ```
+
+Ещё один пример, параметр func указывает ссылку на функцию, которой будет передаваться текущий элемент последовательности.<br> 
+Внутри функции func необходимо вернуть значение True или False. Для примера, удалим все отрицательные значения из списка.
+```python
+print('\nпреобразуем итератор в список')
+def func(elem):
+    return elem >= 0
+numbers = [-1, 2, -3, 4, 0, -20, 10]
+positive_numbers = list(filter(func, numbers))  #  преобразуем итератор в список
+print(positive_numbers)
+```
+![image](https://github.com/user-attachments/assets/a0ea9682-c451-4fc6-8f42-4c527aaee6ff)
+
