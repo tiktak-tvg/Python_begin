@@ -51,10 +51,25 @@ print('Код с функцией  map() преобразуем итератор
 def func(elem1, elem2):
     return elem1 + elem2
 numbers1 = [1, 2, 3, 4]
-numbers2 = [1, 1, 1, 1, 1]
+numbers2 = [1, 1, 1, 1]
 new_numbers = list(map(func, numbers1, numbers2))  #  преобразуем итератор в список
 print(new_numbers)
 ```
 ![image](https://github.com/user-attachments/assets/91e15bd2-b01a-4345-93a6-5e50cc5ec8f9)
 
-	
+> Если в последовательностях разное количество элементов, то последовательность с минимальным количеством элементов становится ограничителем.
+```python
+print('Код с функцией  map() преобразуем итератор в список и ограничим данные')
+def func(elem1, elem2, elem3):
+    return elem1 + elem2 + elem3
+numbers1 = [1, 2, 3, 4]
+numbers2 = [1, 1]
+numbers3 = [1, 2, 3, 4]
+new_numbers = list(map(func, numbers1, numbers2, numbers3))  #  преобразуем итератор в список
+print(new_numbers)
+```
+![image](https://github.com/user-attachments/assets/6da638d6-c17c-43e2-9a0c-171dbbe71a6d)
+
+
+
+ 
