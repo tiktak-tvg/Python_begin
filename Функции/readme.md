@@ -1,5 +1,5 @@
 #### Содержание.
->- functions_map()_filter()_redoce() 
+-> functions_map()_filter()_redoce() 
 - map_filter.md
 
 > functios >
