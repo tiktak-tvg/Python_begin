@@ -29,9 +29,6 @@
 
 ![image](https://github.com/tvgVita69/python_begin/assets/98489171/e80c03e9-60d4-4b3c-9e54-6b4d33fad703)
 
-
-![image](https://github.com/user-attachments/assets/4bcecfc3-5aab-4cb7-a2cf-95b8b616fe1a)
-
 ```python
 from operator import *     #  импортируем все функции
 
