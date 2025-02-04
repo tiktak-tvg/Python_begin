@@ -153,23 +153,34 @@ for value in true_values:
 ```
 
 ##### Функция reduce()
+> Синтаксис reduce(func, iterable[, initial]) 
+- Параметр func – функция, к которой кумулятивно применяется каждый элемент iterable.
+- Значение initial является необязательным и в случае указания, служит стартовым значением или значением по умолчанию, если итерируемый объект пуст.
 
-Для использования функции ``reduce()`` необходимо подключить специальный модуль ``functools``.
+Напишем программу, которая считает сумму чисел в списке
 ```python
-true_values = filter(None, [1, 0, 10, '', None, [], [1, 2, 3], ()])
-for value in true_values:
-    print(value)
+from functools import reduce # для использования функции reduce() необходимо подключить специальный модуль functools.
+
+numbers = [1, 2, 3, 4, 5, 6]
+result = reduce(lambda x, y: x + y, numbers)
+print(result)
 ```
 
 Результат :
 ```python
-1
-10
-[1, 2, 3]
+21
+```
+```python
+print('а теперь параметру передадим число 5')
+numbers = [1, 2, 3, 4, 5, 6]
+result = reduce(lambda x, y: x + y, numbers, 5)
+print(result)
 ```
 
-
-
+Результат :
+```python
+26
+```
 
 
 
