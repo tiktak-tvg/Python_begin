@@ -141,13 +141,13 @@ print(*generate_1234())     # распаковка генератора
 > Пример кода:
 ```python
 def generate_AB():
-print('start')
-yield 'A'
-print('continue')
-yield 'B'
-print('end')
+    print('start')
+    yield 'A'
+    print('continue')
+    yield 'B'
+    print('end')
 for char in generate_AB():
-print('-->', char)
+    print('-->', char)
 ```
 выводит:
 ```python
@@ -158,11 +158,31 @@ continue
 end
 ```
 Как мы уже знаем, для итерирования цикл for сначала получает итератор, то есть выполняет следующий код:
-``iterator = iter(generate_AB())``
-
-
-
-
+``iterator = iter(generate_AB())``<br>
+а затем на каждой итерации вызывает функцию ``next(iterator)``. В теле цикла на каждой итерации печатается строка --> и значение, полученное при вызове ``next(iterator)``.<br>
+Во время первой итерации и первом вызове ``next(iterator)`` генератор, перед тем как сгенерировать значение ``'A' (то есть дойти до строки yield 'A')``, сначала выполняет строку ``print('start')``.<br>
+Во время второй итерации и втором вызове ``next(iterator)`` генератор, перед тем как сгенерировать значение ``'B' (то есть дойти до строки yield 'B')``, сначала выполняет строку ``print('continue')``.<br>
+Во время третьей итерации и третьем вызове ``next(iterator)`` генератор выполняет строку ``print('end')`` и завершает свою работу, возбуждая исключение ``StopIteration``.<br> 
+Цикл ``for`` перехватывает это исключение и нормально завершается.<br>
+#### Ключевое слово return в теле функции генератора
+До версии ``Python 3.3`` наличие ключевого слова return внутри функции генератора приводило к возникновению ошибки:<br>
+``SyntaxError: 'return' with argument inside generator``<br>
+Теперь это допускается, при этом инструкция return приводит к возбуждению исключения ``StopIteration``.<br>
+> Пример кода:
+```python
+def generate_ints():
+yield 1
+yield 2
+return 3
+yield 4
+for num in generate_ints():
+print(num)
+```
+> выводит:
+```
+1
+2
+```
 
 
 
