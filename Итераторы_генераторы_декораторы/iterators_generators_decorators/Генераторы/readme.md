@@ -23,8 +23,8 @@
 > Пример кода
 ```python   
 def generate_ints(n):
-for num in range(n):
-yield num
+    for num in range(n):
+        yield num
 
 generator1 = generate_ints(5) # создаем генератор, порождающий числа 0 1 2 3 4
 print(type(generator1))
@@ -35,7 +35,7 @@ print(next(generator1))
 print(next(generator1))
 generator2 = generate_ints(3) # создаем генератор, порождающий числа 0 1 2
 for num in generator2:
-print(num)
+    print(num)
 num1, num2 = generate_ints(2) # создаем генератор, порождающий числа 0 1
 print(num1, num2)
 ```
@@ -342,16 +342,13 @@ for index, num in enumerate(infinite_factorials, 1):
 > Пример кода:
 ```python
 def generate_1():
-yield 1
+    yield 1
 gen = generate_1()
 print(dir(gen))
 ```
 выводит список всех атрибутов генератора, среди которых есть методы __iter__() и __next__():
 ```python
-['__class__', '__del__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__',
-'__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__lt__', '__name__', '__ne__', '__new__',
-'__next__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__',
-'__subclasshook__', 'close', 'gi_code', 'gi_frame', 'gi_running', 'gi_yieldfrom', 'send', 'throw']
+['__class__', '__del__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__lt__', '__name__', '__ne__', '__new__', '__next__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'close', 'gi_code', 'gi_frame', 'gi_running', 'gi_yieldfrom', 'send', 'throw']
 ```
 > Примечание 4. Итерируемый объект и итератор – это протоколы, то есть правила реализации. Генератор – это не протокол, а конкретная реализация. Это специальный механизм в языке Python, который позволяет создать однократно перебираемую функцию, логика перебора которой легко и красиво описывается.
 > Примечание 5. Единственное синтаксическое различие между обычной функцией и функцией генератором – тот факт, что в теле последней встречается ключевое слово yield. Многие разработчики из команды Python считали, что для функций генераторов следовало бы ввести новое ключевое слово gen вместо def, но Гвидо не согласился.
