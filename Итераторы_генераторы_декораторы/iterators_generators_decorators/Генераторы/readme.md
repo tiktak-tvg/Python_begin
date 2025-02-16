@@ -24,7 +24,8 @@
 функция.<br>
 Рассмотрим пример функции генератора, которая порождает последовательность целых чисел от 00 (включительно) до
 ``n`` (не включительно).<br>
-![image](https://github.com/user-attachments/assets/d5300a46-a31a-4f1a-9b98-f8958622bc5b)
+![image](https://github.com/user-attachments/assets/208a8799-5029-463a-a013-a2478aff4df0)
+
 > Пример кода
 ```python   
 def generate_ints(n):
