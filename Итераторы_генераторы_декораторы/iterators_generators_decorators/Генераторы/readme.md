@@ -171,12 +171,12 @@ end
 > Пример кода:
 ```python
 def generate_ints():
-yield 1
-yield 2
-return 3
-yield 4
+    yield 1
+    yield 2
+    return 3
+    yield 4
 for num in generate_ints():
-print(num)
+    print(num)
 ```
 > выводит:
 ```
@@ -234,8 +234,6 @@ print(next(counter2))
 100
 101
 ``` 
-> Ручная реализация соответствующего класса итератора
-
 > Пример 2. Реализуем функцию генератор even_numbers(), которая возвращает генератор, порождающий бесконечную последовательность целых четных чисел от значения begin.<br>
 Значение begin передается в качестве аргумента в функцию генератор.<br>
 Реализация функции генератора:
@@ -272,4 +270,75 @@ print(next(evens2))
 106
 108
 ```
-▸ Ручная реализация соответствующего класса итератора
+> Пример 3. Реализуем функцию генератор string_wrapper, которая возвращает генератор, порождающий последовательность символов строки text, обрамленных специальным символом symbol.<br>
+Значения text и symbol передаются в качестве аргументов в функцию генератор.<br>
+Реализация функции генератора:
+> Пример кода:
+```python
+def string_wrapper(text, symbol):
+    for char in text:
+        yield symbol + char + symbol
+
+string_wrapper1 = string_wrapper('beegeek', '~')
+for char in string_wrapper1:
+    print(char)
+string_wrapper2 = string_wrapper('Python', '+')
+print(next(string_wrapper2))
+print(next(string_wrapper2))
+print(next(string_wrapper2))
+print(list(string_wrapper('stepik', '-')))
+```
+> выводит:
+```python
+~b~
+~e~
+~e~
+~g~
+~e~
+~e~
+~k~
++P+
++y+
++t+
+['-s-', '-t-', '-e-', '-p-', '-i-', '-k-']
+```
+> Пример 4. Реализуем функцию генератор factorials(), которая возвращает генератор, порождающий бесконечную
+последовательность факториалов всех натуральных чисел (от 11 до бесконечности). Функция генератор не принимает
+аргументов.
+Реализация функции генератора:
+> Пример кода:
+```python
+def factorials():
+    value = 1
+    index = 1
+    while True:
+        yield value
+        index += 1
+        value *= index
+
+infinite_factorials = factorials()
+for index, num in enumerate(infinite_factorials, 1):
+    if index <= 10:
+        print(f'Факториал числа {index} равен {num}')
+```
+![image](https://github.com/user-attachments/assets/2675ce6a-01e5-4037-9c28-11b195b4243f)
+> выводит:
+```python
+Факториал числа 1 равен 1
+Факториал числа 2 равен 2
+Факториал числа 3 равен 6
+Факториал числа 4 равен 24
+Факториал числа 5 равен 120
+Факториал числа 6 равен 720
+Факториал числа 7 равен 5040
+Факториал числа 8 равен 40320
+Факториал числа 9 равен 362880
+Факториал числа 10 равен 3628800
+```
+
+
+
+
+
+
+
