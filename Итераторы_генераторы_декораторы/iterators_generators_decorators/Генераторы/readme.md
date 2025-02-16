@@ -242,22 +242,23 @@ print(next(counter2))
 > Пример кода:
 ```python
 def even_numbers(begin):
-begin += begin % 2
-while True:
-yield begin
-begin += 2
+    begin += begin % 2
+    while True:
+        yield begin
+        begin += 2
 
-evens1 = even_numbers(10) # все четные числа от 10 до бесконечности
+evens1 = even_numbers(10)   # все четные числа от 10 до бесконечности
 for index, num in enumerate(evens1):
-if index > 5:
-break
-print(num)
-evens2 = even_numbers(101) # все четные числа от 102 до бесконечности
+    if index > 5:
+        break
+    print(num)
+evens2 = even_numbers(101)  # все четные числа от 102 до бесконечности
 print(next(evens2))
 print(next(evens2))
 print(next(evens2))
 print(next(evens2))
 ```
+![image](https://github.com/user-attachments/assets/23b85976-f7d8-4f92-aceb-a57e881bbee3)
 > выводит:
 ```python
 10
